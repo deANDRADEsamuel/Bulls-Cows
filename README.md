@@ -17,4 +17,27 @@ aux jeux Mastermind et Wordle.
   - Troisièmement, je créerai bulls et cows
 
 ## Liste des Fonctions
+
+...
+def CreerNombre(): # Crée un nombre random.
+    for i in range(4):
+        x = random.randrange(9)
+        nombre.append(x)
+    if len(nombre) > len(set(nombre)): # S'il n'y a pas de nombres répétés, cela fera un loop jusqu'à se qu'il y ai au moins un nombre répété.
+        nombre.clear()
+        CreerNombre()
+        
+def JouerPartie():
+    global essais
+    essais += 1 # Rajout d'un essai à chaque fois que le résultat n'est pas trouvé.
+    cows =0 # Fait un reset à chaque nouvelle partie.
+    bulls = 0
+    print(nombre)
+    choix = input("Entrez une list de 4 nombres") # Message pour ajouter une liste de nombres.
+    deviner = []
+...
+
+## Jeu de test
+
+  Nous allons tester si les numéros sont random et si le programme marche
 https://github.com/Yasmine-Zaky/projet-nsi-filtre
