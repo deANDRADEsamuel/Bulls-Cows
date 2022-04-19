@@ -19,6 +19,7 @@ aux jeux Mastermind et Wordle.
 ## Liste des Fonctions
 
 ...
+
 def CreerNombre(): # Crée un nombre random.
     for i in range(4):
         x = random.randrange(9)
@@ -35,9 +36,10 @@ def JouerPartie():
     print(nombre)
     choix = input("Entrez une list de 4 nombres") # Message pour ajouter une liste de nombres.
     deviner = []
+
 ...
 
-## Jeu de test
+## Jeu tests
 
   Nous allons tester si les numéros sont random et si le programme marche
 https://github.com/Yasmine-Zaky/projet-nsi-filtre
