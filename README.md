@@ -12,5 +12,9 @@ aux jeux Mastermind et Wordle.
 
 ## MVP
  
-  
+  - Premièrement, je vais créer un programme pour avoir des numéros random
+  - Deuxièmement, je vais créer le compteur d'essais
+  - Troisièmement, je créerai bulls et cows
+
+## Liste des Fonctions
 https://github.com/Yasmine-Zaky/projet-nsi-filtre
